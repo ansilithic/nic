@@ -22,18 +22,14 @@ The detail view shows full addressing (IPv4 + IPv6 with scope labels), traffic c
 
 ## Install
 
-Requires Swift 6.0+ and macOS 14+. Depends on [swift-cli-core](https://github.com/ansilithic/swift-cli-core) and [swift-argument-parser](https://github.com/apple/swift-argument-parser).
-
 ```sh
-git clone https://github.com/ansilithic/nic.git
-cd nic
-make build && make install
+brew install ansilithic/tap/nic
 ```
 
-The binary installs to `/usr/local/bin/nic`. Verify with:
+Or build from source (requires Xcode and macOS 14+):
 
 ```sh
-nic --version
+make build && make install
 ```
 
 ## Usage
