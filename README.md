@@ -45,7 +45,7 @@ nic [interface] [options]
 | `--no-public-ip` | Skip public IP lookup |
 | `<interface>` | Show full detail for a specific interface |
 
-## Examples
+### Examples
 
 ```sh
 # Default view — active interfaces with traffic chart
